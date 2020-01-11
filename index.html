@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Test</title>
+        <title>CIT230 Assigment Portal</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=devib ce-width, initial-scale=1" />
         <meta name="description" content="Assignment portal for Abby De Ocampo in CIT 230: Web Frontend Development 
         at BYU-Idaho Online Learning"/>
         <link rel="stylesheet" href="#"/>
-
+        <script>
+         var x = document.lastModified;
+              document.getElementById("last_modified").innerHTML =  document.lastModified;
+       </script>
     </head>
     <body>
         <div>
-            <header><title>CIT230 Assigment Portal</title>
+            <header>
+                <div id="name">
+                </div>
                 <div id="picture">
                 </div>
             </header>
             <div id="content">
                 <main>
                     <div id="folder_name">
-
+                        <p>Ma. Abigael De Ocampo</p>
                     </div>
                     <div id="lesson">
                         <ul>
@@ -33,7 +38,8 @@
                     </div>
                 </main>
                 <footer>
-                    <p>&copy | Ma. Abigael De Ocampo| Philippines|<a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+                    <p>&copy | Ma. Abigael De Ocampo| Philippines |<a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a></p>
+                    <p>Last Modified:</p><div id="last_modified"></div>
                 </footer>
             </div>
         </div>
