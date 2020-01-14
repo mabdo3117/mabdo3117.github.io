@@ -3,7 +3,7 @@
     margin: auto;
     flex-wrap: nowrap | wrap | wrap-reverse;
   }
-h1 #name{
+h1 {
     font-family: 'Lobster', cursive;
 }
 footer, header {
