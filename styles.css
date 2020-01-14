@@ -3,9 +3,7 @@
     margin: auto;
     flex-wrap: nowrap | wrap | wrap-reverse;
   }
-h1 {
-    font-family: 'Lobster', cursive;
-}
+
 footer, header {
     background: #0098cc;
       padding: 1em;
@@ -38,7 +36,10 @@ footer {
     line-height: 50%;
     color: black;
 }
-#name{text-align:center;font-family: Arial, Helvetica, sans-serif;}
+#name{
+    text-align:center;
+    font-family: 'Lobster', cursive;s
+}
 #line{
     height: .5px;
     background-color: black;
