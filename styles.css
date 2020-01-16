@@ -1,7 +1,7 @@
 #content {
             max-width: 960px;
             margin: auto;
-            flex-wrap: nowrap | wrap | wrap-reverse;
+            flex-wrap: nowrap;
         }
 
 footer, header {
