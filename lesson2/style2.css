@@ -3,7 +3,12 @@
     margin: auto;
     flex-wrap: nowrap;
 }
-
+.web{
+    display: inline-grid;
+    width:100%;
+    background-color:white;
+    
+}
 footer, header {
 background: #0098cc;
 padding: 1em;

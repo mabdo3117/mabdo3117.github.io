@@ -1,53 +1,44 @@
 #content {
-            max-width: 960px;
-            margin: auto;
-            flex-wrap: nowrap;
+    max-width: 960px;
+    margin: auto;
+    flex-wrap: nowrap;
         }
 
 footer, header {
     background: #0098cc;
-      padding: 1em;
-      color:white;
-      border-radius: 25px;
+    padding: 1em;
+    color:white;
+    border-radius: 25px;
       
     }
-    
-    footer {
-        text-align: center;
-        padding-top: .001em;
-        padding-bottom: 1em;
-        font-family: 'Didact Gothic', sans-serif;
-        color: black;
-    }
-#picture img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 250px;
-    border-radius: 30px;
+img{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 250px;
+border-radius: 30px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
-#picture{
-    float:right;
-    
-}
-#lesson{
-    font-family: 'Didact Gothic', sans-serif;
-    color: black;
-    
-}
-
-#name, #folder_name {
+h1{
     text-align:center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Courgette', cursive;
 }
-#folder_name{
-    
+.sub{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    margin: 10px;
     border-bottom: 1px solid #999;
 }
-#line{
-    height: .5px;
-    background-color: black;
-    margin-top: -1em;
-    margin-right: 1em;
+ul, footer{
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+        
+}
+footer {
+    text-align: center;
+    padding-top: .001em;
+    padding-bottom: 1em;
 }
 
 #inline{
